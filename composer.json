@@ -1,0 +1,20 @@
+{
+    "name": "contao/polyfill-symfony",
+    "type": "library",
+    "description": "Adds some Symfony resources for bundles that want to be compatible with both Symfony 4 and 5",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Leo Feyer",
+            "homepage": "https://github.com/leofeyer"
+        }
+    ],
+    "require": {
+        "php": "^7.2 || ^8.0"
+    },
+    "autoload": {
+        "files": [
+            "bootstrap.php"
+        ]
+    }
+}
