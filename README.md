@@ -14,14 +14,14 @@ by providing the `InputBag` class in Symfony 4 as well.
 ### `TranslatorInterface`
 
 The `TranslatorInterface` has been moved from the Translation component to the
-Contracts component in Symfony 5. The polyfill provides the old interface in
-Symfony 5 as well.
+Contracts component in Symfony 5. The polyfill restores the old interface in
+Symfony 5.
 
 ## Scope
 
-This package is not meant as a comprehensive, long-term solution. We are using
-it in Contao to provide a transition release between Contao 4.9 LTS, which is
-Symfony 4.4 only, and Contao 4.13 LTS, which will be Symfony 5.4 only.
+If you want your Contao extension to be compatible with multiple Contao
+versions (e.g. `4.9` to `4.13`), you will also have to be compatible with both
+Symfony 4 and 5. Require the polyfill in your `composer.json` in this case.
 
 ## License
 

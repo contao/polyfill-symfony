@@ -14,9 +14,9 @@ use Symfony\Component\HttpFoundation\InputBag;
 use Symfony\Component\Translation\TranslatorInterface;
 
 if (!class_exists(InputBag::class)) {
-    include_once __DIR__.'/InputBag.php';
+    include_once __DIR__.'/src/InputBag.php';
 }
 
 if (!interface_exists(TranslatorInterface::class)) {
-    include_once __DIR__.'/TranslatorInterface.php';
+    include_once __DIR__.'/src/TranslatorInterface.php';
 }
